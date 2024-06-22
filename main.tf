@@ -14,6 +14,7 @@ terraform {
   backend "remote" {
     organization = "Szumarski_test"
 
+
     workspaces {
       name = "demo-github-actions"
     }
